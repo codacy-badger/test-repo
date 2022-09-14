@@ -4,6 +4,7 @@ class A:
 
     def __add__(self, other):
         raise NotImplementedError
+
     def __test__(self):
         ...
 
@@ -11,12 +12,15 @@ class A:
         ...
 
 
-def add(a:int, b: int) -> bool:
-    return a +b
+def add(a: int, b: int) -> bool:
+    return a + b
+
 
 add("1", 2)
 
-a=A()
+a = A()
+
+
 def wrong_callable():
     if hasattr(a, "__call__"):
         return a()
