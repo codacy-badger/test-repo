@@ -1,0 +1,25 @@
+version = 1
+
+test_patterns = [
+  "tests/**",
+  "test_*.py"
+]
+
+[[analyzers]]
+name = "python"
+enabled = true
+dependency_file_paths = [
+  "pyproject.toml",
+  "poetry.lock"
+]
+
+[analyzers.meta]
+type_checker = "mypy"
+
+[[transformers]]
+name = "black"
+enabled = true
+
+[[transformers]]
+name = "isort"
+enabled = true

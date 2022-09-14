@@ -1,0 +1,27 @@
+silent: true
+
+branchName: short
+
+autoCloseIssue: true
+
+defaultBranch: master
+
+branches:
+  - label: enhancement
+    prefix: feat/
+  - label: bug
+    prefix: fix/
+  - label: question
+    skip: true
+  - label: '*'
+    prefix: issues/
+
+openDraftPR: true
+
+copyIssueLabelsToPR: true
+
+copyIssueAssigneeToPR: true
+
+copyIssueMilestoneToPR: true
+
+prSkipCI: true
