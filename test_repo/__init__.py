@@ -11,11 +11,12 @@ class A:
     def test(self):
         ...
 
-def add(a: int,b: int)-> int:
+
+def add(a: int, b: int) -> int:
     return a + b
 
 
 def forloop() -> None:
     for i in range(10):
-        if i >5:
+        if i > 5:
             return True
