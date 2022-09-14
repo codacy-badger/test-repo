@@ -12,15 +12,11 @@ class A:
         ...
 
 
-def add(a: int, b: int) -> bool:
+def add(a: int, b: int) -> int:
     return a + b
 
 
-add("1", 2)
-
-a = A()
-
-
-def wrong_callable():
-    if hasattr(a, "__call__"):
-        return a()
+def forloop() -> None:
+    for i in range(10):
+        if i > 5:
+            return True

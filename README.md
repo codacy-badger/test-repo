@@ -1,1 +1,2 @@
 # test-repo
+[![DeepSource](https://deepsource.io/gh/A-kirami/test-repo.svg/?label=active+issues&show_trend=true&token=sMPJrclhgRj8ztYy1iNY0kwg)](https://deepsource.io/gh/A-kirami/test-repo/?ref=repository-badge)
